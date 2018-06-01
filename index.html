@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>劳动节快乐</title>
+    <link rel="stylesheet" href="css/labor.css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/dom.js"></script>    
+</head>
+<body>
+    <header>
+        <div id="login">
+            <div class="wrap-login">
+                <ul>
+                    <li>登录窗</li>
+                    <li><input class="putin" type="text" placeholder="用户名"></li>
+                    <li><input class="putin" type="password" placeholder="密码"></li>
+                    <li>
+                        <input type="button" value="登录">
+                        <input id="close_login" type="button" value="关闭">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    首页
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li>
+                    天纵奇才
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li>
+                    马到成功
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li>
+                    永不言弃
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li>
+                    不惧艰苦
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li>
+                    勇往直前
+                    <ul class="nav">
+                        <li>内容一</li>
+                        <li>内容二</li>
+                        <li>内容三</li>
+                        <li>内容四</li>
+                        <li>内容五</li>
+                    </ul>
+                </li>
+                <li id="btn_for_login">
+                    登录
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="swipe">
+            <ul class="wrap-nav-img">
+                <li class="nav-img0"></li>
+                <li class="nav-img1"></li>
+                <li class="nav-img2"></li>
+                <li class="nav-img3"></li>
+                <li class="nav-img4"></li>
+            </ul>
+            <div class="arrow arrow-l">
+                <img src="img/arrow-l.png" width="55" alt="">
+            </div>
+            <div class="arrow arrow-r">
+                <img src="img/arrow-r.png" width="55" alt="">
+            </div>
+            <div class="dots">
+                <ul>
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+            </div>
+        </div>
+        <section>
+            <div class="wrap tab-fade">
+                <ul class="tab-title">
+                    <li class="active">绿意盎然</li>
+                    <li>青春得意</li>
+                    <li>相见恨晚</li>
+                    <li>朝思暮想</li>
+                    <li>衣带渐宽</li>
+                    <li>永不言弃</li>
+                </ul>
+                <div>
+                    <div class="tab active">
+                        <div class="wrap-art">
+                            <div>
+                                <h3>《破阵子》</h3>
+                                <span>辛弃疾</span>
+                            </div>
+                            <ul>
+                                <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                <li>沙场秋点兵。</li>
+                                <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                <li>了却君王天下事，赢得生前身后名。</li>
+                                <li>可怜白发生。</li>
+                            </ul>
+                        </div>
+                        <div class="wrap-art">
+                            <div>
+                                <h3>《将进酒》</h3>
+                                <span>李白</span>
+                            </div>
+                            <ul>
+                                <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                <li>天生我材必有用，千金散尽还复来。</li>
+                                <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                            </ul>
+                        </div>
+                        <div class="wrap-img">
+                            <ul>
+                                <li>
+                                    <img src="img/chun.png"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun1.jpg"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun3.jpg"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun6.jpg"  alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="wrap-img">
+                            <ul>
+                                <li>
+                                    <img src="img/chun8.jpg"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun7.jpg"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun5.jpg"  alt="">
+                                </li>
+                                <li>
+                                    <img src="img/chun4.jpg"  alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab">
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《破阵子》</h3>
+                                    <span>辛弃疾</span>
+                                </div>
+                                <ul>
+                                    <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                    <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                    <li>沙场秋点兵。</li>
+                                    <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                    <li>了却君王天下事，赢得生前身后名。</li>
+                                    <li>可怜白发生。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《将进酒》</h3>
+                                    <span>李白</span>
+                                </div>
+                                <ul>
+                                    <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                    <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                    <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                    <li>天生我材必有用，千金散尽还复来。</li>
+                                    <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                    <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun4.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun1.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun9.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun5.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="tab">
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《破阵子》</h3>
+                                    <span>辛弃疾</span>
+                                </div>
+                                <ul>
+                                    <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                    <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                    <li>沙场秋点兵。</li>
+                                    <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                    <li>了却君王天下事，赢得生前身后名。</li>
+                                    <li>可怜白发生。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《将进酒》</h3>
+                                    <span>李白</span>
+                                </div>
+                                <ul>
+                                    <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                    <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                    <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                    <li>天生我材必有用，千金散尽还复来。</li>
+                                    <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                    <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun9.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun7.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun5.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="tab">
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《破阵子》</h3>
+                                    <span>辛弃疾</span>
+                                </div>
+                                <ul>
+                                    <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                    <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                    <li>沙场秋点兵。</li>
+                                    <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                    <li>了却君王天下事，赢得生前身后名。</li>
+                                    <li>可怜白发生。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《将进酒》</h3>
+                                    <span>李白</span>
+                                </div>
+                                <ul>
+                                    <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                    <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                    <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                    <li>天生我材必有用，千金散尽还复来。</li>
+                                    <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                    <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun5.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun7.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun5.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun7.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="tab">
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《破阵子》</h3>
+                                    <span>辛弃疾</span>
+                                </div>
+                                <ul>
+                                    <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                    <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                    <li>沙场秋点兵。</li>
+                                    <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                    <li>了却君王天下事，赢得生前身后名。</li>
+                                    <li>可怜白发生。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《将进酒》</h3>
+                                    <span>李白</span>
+                                </div>
+                                <ul>
+                                    <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                    <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                    <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                    <li>天生我材必有用，千金散尽还复来。</li>
+                                    <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                    <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun7.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun1.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun3.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun8.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="tab">
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《破阵子》</h3>
+                                    <span>辛弃疾</span>
+                                </div>
+                                <ul>
+                                    <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                    <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                    <li>沙场秋点兵。</li>
+                                    <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                    <li>了却君王天下事，赢得生前身后名。</li>
+                                    <li>可怜白发生。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-art">
+                                <div>
+                                    <h3>《将进酒》</h3>
+                                    <span>李白</span>
+                                </div>
+                                <ul>
+                                    <li>君不见，黄河之水天上来，奔流到海不复回。</li>
+                                    <li>君不见，高堂明镜悲白发，朝如青丝暮成雪。</li>
+                                    <li>人生得意须尽欢，莫使金樽空对月。</li>
+                                    <li>天生我材必有用，千金散尽还复来。</li>
+                                    <li>烹羊宰牛且为乐，会须一饮三百杯。</li>
+                                    <li>岑夫子，丹丘生，将进酒，杯莫停。</li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun4.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun8.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wrap-img">
+                                <ul>
+                                    <li>
+                                        <img src="img/chun6.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun2.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun5.jpg"  alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/chun4.jpg"  alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="tab-slide">
+                <div class="wrap-tab-slide">
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab active">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div> 
+                    <div>
+                        <div class="tab-title">辛弃疾</div>
+                        <div class="tab">
+                            <div>
+                                <div class="wrap-art">
+                                    <h3>《破阵子》</h3>
+                                    <ul>
+                                        <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                        <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                        <li>沙场秋点兵。</li>
+                                        <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                        <li>了却君王天下事，赢得生前身后名。</li>
+                                        <li>可怜白发生。</li>
+                                    </ul>
+                                </div>
+                                <div class="wrap-img">
+                                    <img src="img/chun2.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div> 
+                    <div>
+                        <div class="tab-title">辛弃疾</div>
+                        <div class="tab">
+                            <div>
+                                <div class="wrap-art">
+                                    <h3>《破阵子》</h3>
+                                    <ul>
+                                        <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                        <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                        <li>沙场秋点兵。</li>
+                                        <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                        <li>了却君王天下事，赢得生前身后名。</li>
+                                        <li>可怜白发生。</li>
+                                    </ul>
+                                </div>
+                                <div class="wrap-img">
+                                    <img src="img/chun2.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div> 
+                    <div>
+                            <div class="tab-title">辛弃疾</div>
+                            <div class="tab">
+                                <div>
+                                    <div class="wrap-art">
+                                        <h3>《破阵子》</h3>
+                                        <ul>
+                                            <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                            <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                            <li>沙场秋点兵。</li>
+                                            <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                            <li>了却君王天下事，赢得生前身后名。</li>
+                                            <li>可怜白发生。</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wrap-img">
+                                        <img src="img/chun2.jpg" alt="">
+                                    </div>
+                                </div>
+                               
+                            </div>
+                    </div> 
+                    <div>
+                        <div class="tab-title">辛弃疾</div>
+                        <div class="tab">
+                            <div>
+                                <div class="wrap-art">
+                                    <h3>《破阵子》</h3>
+                                    <ul>
+                                        <li>醉里挑灯看剑，梦回吹角连营。</li>
+                                        <li>八百里分麾下炙，五十弦翻塞外声，</li>
+                                        <li>沙场秋点兵。</li>
+                                        <li>马作的卢飞快，弓如霹雳弦惊。</li>
+                                        <li>了却君王天下事，赢得生前身后名。</li>
+                                        <li>可怜白发生。</li>
+                                    </ul>
+                                </div>
+                                <div class="wrap-img">
+                                    <img src="img/chun2.jpg" alt="">
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="wrap-animate">
+                <div class="lt-animate"><h3>动次</h3></div>
+                <div class="active animate-buble"><h3>点击有喜</h3></div>
+                <div id="box"></div>
+                <div class="rt-animate"><h3>打次</h3></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy;我可以划船不用桨，我可以扬帆不用风。因为我的一生，全靠浪。
+    </footer>
+</body>
+</html>
